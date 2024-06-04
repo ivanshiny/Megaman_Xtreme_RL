@@ -192,14 +192,17 @@ if train:  # Training modes
     for e in range(episodes):
         observation = env.reset()
         start = time.time()
-
-        if "Xtreme" in gameName:
-            if '_2' in gameName:
-                with open("./games/MegaManXtreme_2.gbc.state", "rb") as f:
-                    pyboy.load_state(f)
-            else:
-                with open("./games/MegaManXtreme.gbc.state", "rb") as f:
-                    pyboy.load_state(f)
+        
+        try:
+            if "Xtreme" in gameName:
+                if '_2' in gameName:
+                    with open("./games/MegaManXtreme_2.gbc.state", "rb") as f:
+                        pyboy.load_state(f)
+                else:
+                    with open("./games/MegaManXtreme.gbc.state", "rb") as f:
+                        pyboy.load_state(f)
+        except Exception:
+            print("No checkpoint found!")
 
         while True:
             if aiSettings.IsBossActive(pyboy):
