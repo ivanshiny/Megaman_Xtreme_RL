@@ -13,6 +13,7 @@ Este es un proyecto de final de grado (TFG), cuyo objetivo es entrenar un modelo
     - Actualizar desde Ubuntu:  __`pip install --upgrade pip`__
   - Pyboy 2.0 o superior  __`pip install pyboy`__
   - Roms con Megaman Xtreme 1 o 2. Estas deben de contener "Xtreme" en su nombre, y Megaman Xtreme 2 debe de contener "_2".
+  -	Si se quiere recargar la partida desde un punto, se puede crear un estado desde Pyboy abriendo directamente el juego con Pyboy o desde la opción playtesting en el programa, y pulsando la tecla Z en el punto desde el que se quiera cargar.
 
 # Instalación
 
