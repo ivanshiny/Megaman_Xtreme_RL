@@ -33,7 +33,11 @@ Este es un proyecto de final de grado (TFG), cuyo objetivo es entrenar un modelo
 # Referencias
 Este proyecto está basado en [Pyboy-RL](https://github.com/lixado/PyBoy-RL)
 
+
 -
+-
+-
+
 
 # Introduction
 
@@ -69,4 +73,5 @@ This is a final degree project (TFG), aimed at training a model to be able to le
 
 # References
 
-This project is based on Pyboy-RL
+This project is based on [Pyboy-RL](https://github.com/lixado/PyBoy-RL)
+
